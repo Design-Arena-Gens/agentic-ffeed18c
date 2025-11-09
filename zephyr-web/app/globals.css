@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0f12;
+}
+
+html, body {
+  background: var(--bg);
+  color: white;
+}
+
+/* Mobile container */
+.container-mobile {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* tricolor gradient accents */
+.tricolor {
+  background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808);
+}
+
+/* subtle grid for tech aesthetic */
+.bg-grid {
+  background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
